@@ -1,0 +1,29 @@
+{
+  "name": "GitFlowTestGH",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "compass compile --force | vue-cli-service serve --open",
+    "build": "compass compile -c config_prod.rb --force | vue-cli-service build",
+    "build_local": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "es6-promise": "^4.2.4",
+    "headroom.js": "^0.9.4",
+    "fuse.js": "^3.2.1",
+    "moment": "^2.22.2",
+    "proxy-polyfill": "^0.3.0",
+    "underscore": "^1.9.1",
+    "vue": "^2.5.2",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-fullscreen": "^2.1.3",
+    "vue-observe-visibility": "^0.4.1",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-persist": "^1.4.3"
+  }
+}
